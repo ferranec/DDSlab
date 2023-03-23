@@ -76,7 +76,7 @@ events$ct_dst_src_ltm <- NULL
 events$attack_cat <- NULL
 
 ```
-
+Conseguimos 0.9847939 con 13 variables
 ### Data enrichment
 
 ```{r data_enrich, echo=FALSE}
