@@ -38,7 +38,42 @@ features <- read.csv("../../../data/DDSml/raw/features.csv")
 ### Events analysis
 
 ```{r events_stats, echo=FALSE}
-
+events$srcip <- NULL
+events$dstip <- NULL
+events$dur <- NULL
+events$sttl <- NULL
+events$sloss <- NULL
+events$dloss <- NULL
+events$service <- NULL
+events$Spkts <- NULL
+events$Dpkts <- NULL
+events$swin <- NULL
+events$dwin <- NULL
+events$stcpb <- NULL
+events$dtcpb <- NULL
+events$dmeansz<- NULL
+events$trans_depth <- NULL
+events$res_bdy_len <- NULL
+events$Sjit <- NULL
+events$Djit <- NULL
+events$Stime <- NULL
+events$Ltime <- NULL
+events$Sintpkt <- NULL
+events$Dintpkt <- NULL
+events$tcprtt <- NULL
+events$ackdat <- NULL
+events$is_sm_ips_ports <- NULL
+events$ct_state_ttl <- NULL
+events$ct_flw_http_mthd <- NULL
+events$is_ftp_login <- NULL
+events$ct_ftp_cmd <- NULL
+events$ct_srv_src <- NULL
+events$ct_dst_ltm <- NULL
+events$ct_src_ltm <- NULL
+events$ct_src_dport_ltm <- NULL
+events$ct_dst_sport_ltm <- NULL
+events$ct_dst_src_ltm <- NULL
+events$attack_cat <- NULL
 
 ```
 
